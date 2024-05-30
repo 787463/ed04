@@ -7,6 +7,10 @@ import java.util.List;
  * Comentario JavaDoc en la clase Contacto
  */
 class Contacto {
+    public void setName(String name) {
+        this.name = name;
+    }
+
     private String name;
     private List<String> phones;
 
