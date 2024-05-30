@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * Comentario JavaDoc en la clase Agenda
+ */
 public class Agenda {
     private List<Contacto> contacts; // Lista de Contacto
 
