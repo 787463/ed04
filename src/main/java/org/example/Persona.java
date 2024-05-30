@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Comentario JavaDoc en la clase Contacto
  */
-class Contacto {
+class Persona {
     public void setName(String name) {
         this.name = name;
     }
@@ -14,7 +14,7 @@ class Contacto {
     private String name;
     private List<String> phones;
 
-    public Contacto(String name, String phone) {
+    public Persona(String name, String phone) {
         this.name = name;
         this.phones = new ArrayList<>();
         this.phones.add(phone);
